@@ -1,0 +1,100 @@
+{
+    "Datalize": [
+        {
+            "file_path": "D:/Github/Datalize/superstore.csv",
+            "md5": "85362cd820c910b794c66fc78feda3fc",
+            "col": [
+                "MONTH( Order Date )"
+            ],
+            "row": [
+                "SUM( Profit )"
+            ],
+            "dimensions": [
+                "Category",
+                "City",
+                "Country/Region",
+                "Customer ID",
+                "Customer Name",
+                "Order ID",
+                "Postal Code",
+                "Product ID",
+                "Product Name",
+                "Region",
+                "Row ID",
+                "Segment",
+                "Ship Mode",
+                "State",
+                "Sub-Category"
+            ],
+            "datetime": [
+                "Order Date",
+                "Ship Date"
+            ],
+            "measures": [
+                "Discount",
+                "Profit",
+                "Quantity",
+                "Sales"
+            ]
+        },
+        {
+            "file_path": "D:/Github/Datalize/sp.csv",
+            "md5": "d12b6f797219d4bad02c50c34792b9c0",
+            "col": [
+                "YEAR( Order Date )"
+            ],
+            "row": [
+                "SUM( Profit )"
+            ],
+            "dimensions": [
+                "Category",
+                "City",
+                "Country/Region",
+                "Customer Name",
+                "Order ID",
+                "Postal Code",
+                "Product ID",
+                "Product Name",
+                "Region",
+                "Row ID",
+                "Customer ID",
+                "Segment",
+                "Ship Mode",
+                "State",
+                "Sub-Category"
+            ],
+            "datetime": [
+                "Order Date",
+                "Ship Date"
+            ],
+            "measures": [
+                "Discount",
+                "Profit",
+                "Quantity",
+                "Sales"
+            ]
+        },
+        {
+            "file_path": "D:/Github/Datalize/testfile01_csv.csv",
+            "md5": "00c57dae77af2a8ac422ec3bf605aa59",
+            "col": [
+                "SUM( score )"
+            ],
+            "row": [
+                "firstname",
+                "DAY( exam date )"
+            ],
+            "dimensions": [
+                "firstname",
+                "row id",
+                "subject"
+            ],
+            "datetime": [
+                "exam date"
+            ],
+            "measures": [
+                "score"
+            ]
+        }
+    ]
+}
